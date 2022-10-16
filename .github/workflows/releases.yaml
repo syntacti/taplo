@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - release-*
+      - nightly
 
 # TODO: github doesn't support regex matching in if expressions for some reason,
 # so these jobs all expect zero-versioned release tags...
